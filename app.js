@@ -24,8 +24,8 @@ const comments = client.CommentStream(streamOpts); // eslint-disable-line
 
 // On comment, perform whatever logic you want to do
 comments.on('comment', (comment) => {
-    if (comment.body === ':(') {
-        comment.reply('turn that frown upside down :)');
+    if (comment.body === 'reee') {
+        comment.reply('Yeah, OP is nothing but a normie &nbsp; beep boop');
     } else if (comment.body === 'nice') {
         comment.reply('Nice.');
     }
